@@ -7,23 +7,26 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="rpc-hessian" />
-        <module name="rpc-grpc-adv-server" />
-        <module name="rpc-grpc-boot-client" />
-        <module name="thrift-client" />
-        <module name="rpc-thrift-idl" />
-        <module name="rpc-grpc-api" />
-        <module name="rpc-grpc-service" />
-        <module name="rpc-grpc-adv-api" />
-        <module name="thrift-syntax" />
-        <module name="rpc-gprc-demo" />
-        <module name="rpc-grpc-client" />
-        <module name="thrift-common" />
-        <module name="rpc-grpc-adv-client" />
-        <module name="rpc-grpc-boot-server" />
-        <module name="thrift-server" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="rpc-gprc-demo" target="1.8" />
+      <module name="rpc-grpc-adv-api" target="1.8" />
+      <module name="rpc-grpc-adv-client" target="1.8" />
+      <module name="rpc-grpc-adv-server" target="1.8" />
+      <module name="rpc-grpc-api" target="1.8" />
+      <module name="rpc-grpc-boot-client" target="1.8" />
+      <module name="rpc-grpc-boot-server" target="1.8" />
+      <module name="rpc-grpc-client" target="1.8" />
+      <module name="rpc-grpc-service" target="1.8" />
+      <module name="rpc-hessian" target="1.8" />
+      <module name="rpc-lession" target="1.8" />
+      <module name="rpc-thrift-idl" target="1.8" />
+      <module name="thrift-client" target="1.8" />
+      <module name="thrift-common" target="1.8" />
+      <module name="thrift-server" target="1.8" />
+      <module name="thrift-syntax" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">

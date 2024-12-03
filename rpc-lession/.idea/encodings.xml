@@ -29,8 +29,6 @@
     <file url="file://$PROJECT_DIR$/thrift-common/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/thrift-server/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/thrift-server/src/main/resources" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/thrift-syntax/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/thrift-syntax/src/main/resources" charset="UTF-8" />
     <file url="PROJECT" charset="UTF-8" />
   </component>
 </project>
