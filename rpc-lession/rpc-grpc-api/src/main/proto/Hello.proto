@@ -1,0 +1,53 @@
+syntax = "proto3";
+
+option java_multiple_files = false;
+option java_package = "com.suns";
+option java_outer_classname = "HelloProto";
+
+/*
+    IDL文件 目的 发布RPC服务，service ----> message       message<------  hello xxxx
+ */
+
+message HelloRequest{
+  string name = 1;
+}
+
+message HelloResponse{
+  string result = 1;
+}
+
+message HelloRequest1{
+  repeated string name = 1;
+}
+
+message HelloResponse1{
+  string result = 1;
+}
+
+service HelloService{
+  rpc hello(HelloRequest) returns (HelloResponse){}
+  rpc hello1(HelloRequest1) returns (HelloResponse1){}
+  rpc c2ss(HelloRequest) returns (stream HelloResponse){}
+  rpc cs2s(stream HelloRequest) returns (HelloResponse){}
+  rpc cs2ss(stream HelloRequest) returns (stream HelloResponse){}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
