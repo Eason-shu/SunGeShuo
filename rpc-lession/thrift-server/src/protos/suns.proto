@@ -1,0 +1,17 @@
+syntax = 'proto3';
+
+message Work{
+  int32  num1 = 1;
+  int32  num2 = 2;
+
+  enum Opration{
+    ADD = 0;
+
+  }
+
+  Opration op = 3;
+}
+
+service Demo{
+  rpc Calculate(Work) returns (){}
+}

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
+  <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="KotlinCodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/rpc-grpc-boot-server/pom.xml" />
+        <option value="$PROJECT_DIR$/rpc-grpc-boot-client/pom.xml" />
+      </list>
+    </option>
+    <option name="ignoredFiles">
+      <set>
+        <option value="$PROJECT_DIR$/grpc-client/pom.xml" />
+        <option value="$PROJECT_DIR$/grpc-server/pom.xml" />
+        <option value="$PROJECT_DIR$/grpc-suns/pom.xml" />
+        <option value="$PROJECT_DIR$/rpc-grpc-api-demo/pom.xml" />
+        <option value="$PROJECT_DIR$/rpc-grpc-client-demo/pom.xml" />
+        <option value="$PROJECT_DIR$/rpc-grpc-demo/pom.xml" />
+        <option value="$PROJECT_DIR$/rpc-grpc-dev-server/pom.xml" />
+        <option value="$PROJECT_DIR$/rpc-grpc-module/pom.xml" />
+        <option value="$PROJECT_DIR$/rpc-grpc-service-demo/pom.xml" />
+        <option value="$PROJECT_DIR$/rpc-test/pom.xml" />
+        <option value="$PROJECT_DIR$/rpc-thrift-client/pom.xml" />
+        <option value="$PROJECT_DIR$/rpc-thrift-server/pom.xml" />
+      </set>
+    </option>
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <selected-state>
+          <State>
+            <id>用户定义</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK" />
+</project>
