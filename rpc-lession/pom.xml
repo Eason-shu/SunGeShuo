@@ -22,6 +22,7 @@
         <module>rpc-grpc-adv-server</module>
         <module>rpc-grpc-adv-client</module>
         <module>thrift-syntax</module>
+        <module>protocol-buffers-demo</module>
     </modules>
 
     <properties>

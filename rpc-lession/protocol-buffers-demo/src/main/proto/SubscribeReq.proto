@@ -1,0 +1,14 @@
+syntax = "proto2";
+
+package com.suns;
+option java_package = "com.suns";
+option java_outer_classname = "SubscribeReqModel";
+
+message SubscribeReq {
+  required int32 subReqID = 1;
+  required string userName = 2;
+  required string productName = 3;
+  optional string phoneNumber = 4;
+}
+
+
